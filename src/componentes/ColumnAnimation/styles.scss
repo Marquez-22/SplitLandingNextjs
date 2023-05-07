@@ -1,0 +1,12 @@
+.ColumnAnimation{
+    display: flex;
+    .Columna{
+        flex: 1;
+        display: flex;
+        transition: 1s;
+        &:hover{
+            flex: 2;
+        }
+    }
+
+}
